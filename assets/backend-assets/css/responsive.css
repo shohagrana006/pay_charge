@@ -1,0 +1,549 @@
+@media only screen and (max-width: 600px) {
+  .single_user_icon_container {
+    display: none;
+}
+.profile-container {
+  margin-top: -3rem;
+  z-index: 15;
+  position: relative;
+  padding: 1rem;
+}
+.profile {
+    height: 150px;
+    width: 150px;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+.cover-image {
+    height: 150px;
+    width: 100%;
+}
+  .login_form_container form {
+    width: 100%;
+  }
+  .notification_sub {
+    width: 260px;
+}
+.notification_user_image {
+    height: 40px;
+    width: 40px;
+}
+  .cross {
+    display: flex;
+  }
+  .main-card {
+    width: 100%;
+  }
+  .pricing-plan {
+    width: 100%;
+  }
+  .column-1 {
+    position: absolute;
+  }
+  .dashboard_container {
+    padding-top: 5rem;
+  }
+  .header_sub_content {
+    padding: 14px 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    left: 0;
+  }
+  .basic_elements_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pageTitleButtons {
+    padding: 2px 4px;
+    font-size: 14px;
+    margin: 0 3px;
+    color: white;
+    border-radius: 5px;
+  }
+  .pageTitle {
+    font-size: 14px;
+  }
+  .allFields {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .profile_notification ul li {
+    margin-left: 5px;
+  }
+  .total_count_parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .button_group {
+    margin-left: 0rem;
+  }
+  .button_group button {
+    padding: 3px;
+    margin-right: 0.5rem;
+  }
+  .dash_board {
+    display: none;
+  }
+  .hide_small {
+    display: none;
+  }
+  .parent_deposit_box {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .user_img_div {
+    height: 30px;
+    width: 30px;
+  }
+  .subscriber_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .parent_pinned_project {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .error_text h3 {
+    font-size: 7rem;
+    margin-bottom: 1rem;
+  }
+  .basic_badges_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .social_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .button_conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .user_img_div {
+    display: none;
+  }
+  .tableSearch1 {
+    display: flex;
+    width: 100%;
+  }
+  .tableSearch1 input {
+    width: 60%;
+    margin-right: 5px;
+  }
+  .tableSearch1 i {
+    width: 20%;
+    flex-grow: 1;
+    margin-left: 1px;
+  }
+  .side_content {
+    margin-left: -280px;
+  }
+  .main_content.added {
+    margin-left: 0px !important;
+  }
+  .main_content {
+    margin-left: 0px;
+  }
+  .side_content.marginLeft {
+    margin-left: 0px !important;
+  }
+  .new-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* =========Price Table Start========= */
+  .prices {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  .price-header {
+    padding: 15px 15px 0 15px;
+  }
+  .price-top {
+    padding: 15px 15px 20px 15px;
+  }
+  .price-content {
+    padding: 0 15px 15px 15px;
+  }
+  .price {
+    font-size: 42px;
+  }
+  .price-content > ul li {
+    font-size: 14px;
+  }
+  .price-header > h3 {
+    font-size: 22px;
+  }
+  .popular-package {
+    font-size: 14px;
+  }
+  .feature-btn {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .plan-icon-container {
+    height: 120px;
+    width: 120px;
+  }
+  .plan-icon-container::after {
+    height: 60px;
+    width: 60px;
+  }
+  .pricing-price {
+    font-size: 2rem;
+  }
+  /* =========Price Table End========= */
+
+  /* =========All cards Start========= */
+  .card_item {
+    padding: 15px;
+  }
+  .productIconContainer {
+    height: 35px;
+    width: 35px;
+  }
+  /* =========All cards End========= */
+  .box {
+    padding: 20px 15px;
+  }
+  .annual_report-content {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .fs--8 {
+    font-size: 1.6rem;
+  }
+  .social_grid i {
+    font-size: 2rem;
+    right: 5%;
+    top: 10%;
+  }
+  .total_single_child {
+    padding: 16px;
+    font-size: 2rem;
+  }
+  .single_subscriber_heading h4 {
+    font-size: 18px;
+  }
+  .single_subscriber_heading h5 {
+    font-size: 15px;
+  }
+  .single_subscriber {
+    padding: 10px;
+  }
+  .box {
+    padding: 20px 15px;
+  }
+  .all-icon-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .all_charts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .all_charts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header_sub_content {
+    width: 100%;
+    left: 0;
+  }
+  .cross {
+    display: flex;
+  }
+  .column-1 {
+    position: absolute;
+  }
+  .allFields {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+  }
+  .side_content {
+    margin-left: -280px;
+  }
+  .main_content.added {
+    margin-left: 0px !important;
+  }
+  .main_content {
+    margin-left: 250px;
+  }
+  .side_content.marginLeft {
+    margin-left: 0px !important;
+  }
+  .parent_pinned_project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  /* =========Price Table Start========= */
+  .prices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .price-header {
+    padding: 15px 15px 0 15px;
+  }
+  .price-top {
+    padding: 15px 15px 20px 15px;
+  }
+  .price-content {
+    padding: 0 15px 15px 15px;
+  }
+  /* =========Price Table End========= */
+  .box {
+    padding: 20px 15px;
+  }
+  .subscriber_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+.all-icon-container {                                                                                             
+    grid-template-columns: repeat(8, 1fr);
+
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .profile {
+    width: 230px;
+}
+  .all_charts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header_sub_content {
+    width: 100%;
+    left: 0;
+  }
+  .cross {
+    display: flex;
+  }
+  .new-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 10px;
+  }
+  .side_content {
+    margin-left: -280px;
+  }
+  .main_content.added {
+    margin-left: 0px !important;
+  }
+  .main_content {
+    margin-left: 0;
+  }
+  .side_content.marginLeft {
+    margin-left: 0px !important;
+  }
+  .basic_elements_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pageTitleButtons {
+    font-size: 17px;
+  }
+  .pageTitle {
+    font-size: 20px;
+  }
+  .allFields {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+  }
+  .single_pinned_project {
+    align-items: inherit;
+  }
+  .total_count_parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .parent_deposit_box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+  }
+  i.las.la-file-invoice-dollar.p-2.rounded-circle.badge--danger {
+    font-size: 1rem;
+    display: block;
+  }
+  i.las.la-sort-amount-up.p-2.rounded-circle.badge--success {
+    font-size: 1rem;
+    display: block;
+  }
+  i.las.la-random.p-2.rounded-circle.badge--primary {
+    font-size: 1rem;
+    display: block;
+  }
+  i.lab.la-schlix.p-2.rounded-circle.badge--primary {
+    font-size: 1rem;
+    display: block;
+  }
+  i.lab.la-hubspot.p-2.rounded-circle.badge--success {
+    font-size: 1rem;
+    display: block;
+  }
+  i.las.la-broadcast-tower.p-2.rounded-circle.badge--danger {
+    font-size: 1rem;
+    display: block;
+  }
+  .deposit_text {
+    margin-left: 0.2rem;
+  }
+  .subscriber_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .parent_pinned_project {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  /* =========Price Table Start========= */
+  .prices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .price-header {
+    padding: 15px 15px 0 15px;
+  }
+  .price-top {
+    padding: 15px 15px 20px 15px;
+  }
+  .price-content {
+    padding: 0 15px 15px 15px;
+  }
+  .price {
+    font-size: 48px;
+  }
+  .price-header > h3 {
+    font-size: 24px;
+  }
+  /* =========Price Table End========= */
+  .box {
+    padding: 20px 15px;
+  }
+  .all-icon-container {                                                                                             
+    grid-template-columns: repeat(8, 1fr);
+
+}
+}
+@media (min-width: 992px) and (max-width: 1023px) {
+  .total_count_parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+    .main_content {
+    margin-left: 0;
+  }
+  /* =========Price Table Start========= */
+  .prices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  /* =========Price Table End========= */
+  .subscriber_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+    .all_charts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .all-icon-container {                                                                                             
+    grid-template-columns: repeat(10, 1fr);
+
+}
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .layout{
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+  }
+  .login_form_container form {
+    width: 90%;
+  }
+  .basic_elements_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pageTitleButtons {
+    font-size: 18px;
+  }
+  .pageTitle {
+    font-size: 22px;
+  }
+  .allFields {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+  }
+  body {
+    font-size: 90%;
+  }
+  .parent_pinned_project {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .total_count_parent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .parent_deposit_box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .new-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .box {
+    padding: 20px 15px;
+  }
+    .main_content {
+    margin-left: 0;
+  }
+  /* =========Price Table Start========= */
+  .prices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .total_single_child {
+    padding: 22px;
+    font-size: 2rem;
+  }
+  /* =========Price Table End========= */
+  .subscriber_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+   .all_charts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+    .all-icon-container {                                                                                             
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+}
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .layout{
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+  }
+  .login_form_container form {
+    width: 90%;
+  }
+  .column2_absolute {
+    top: 8%;
+    padding: 0.7rem;
+  }
+  .box {
+    padding: 0.82rem 1rem;
+  }
+  .basic_elements_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

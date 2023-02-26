@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>http://localhost/Link-directory</loc>
+        <lastmod>2022-12-02T14:48:55+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        </url>
+    <url>
+        <loc>http://localhost/Link-directory/</loc>
+        <lastmod>2022-12-02T14:48:59+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        </url>
+    <url>
+        <loc>http://localhost/Link-directory/user/login/facebook</loc>
+        <lastmod>2022-12-02T14:49:02+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        </url>
+    <url>
+        <loc>http://localhost/Link-directory/user/login/google</loc>
+        <lastmod>2022-12-02T14:49:03+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        </url>
+    <url>
+        <loc>http://localhost/Link-directory/links/details/Dolore-molestias-sed</loc>
+        <lastmod>2022-12-02T14:49:17+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        </url>
+    <url>
+        <loc>http://localhost/Link-directory/links/redirect/ads/Dolore-molestias-sed</loc>
+        <lastmod>2022-12-02T14:49:21+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        </url>
+</urlset>

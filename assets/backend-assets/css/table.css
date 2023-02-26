@@ -1,0 +1,60 @@
+.table-wrapper {
+  padding: 0 0 2rem 0;
+  width: 100%;
+  overflow-x: scroll;
+}
+.table-wrapper::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 5px;
+}
+.table-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #0d6efd63 !important;
+}
+.table-header {
+  padding: 1rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table thead {
+  background: #ffffff;
+  height: 40px !important;
+}
+table thead tr {
+  background: #0037ff0a;
+  border-bottom: 1px solid #b5d1ff8a;
+  border-top: 1px solid #b5d1ff8a;
+}
+table thead tr th {
+  padding: 10px;
+  white-space: nowrap;
+}
+table tbody tr td {
+  white-space: nowrap;
+  padding: 10px;
+  font-family: "PT Sans", sans-serif;
+  vertical-align: middle;
+}
+.action-btn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.3;
+  border: none;
+  transition: 0.3s;
+}
+
+.role-create {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.table-width{
+  width: 100px !important;
+}
+.table-width2{
+  width: 400px !important;
+}

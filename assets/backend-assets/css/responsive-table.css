@@ -1,0 +1,322 @@
+@media only screen and (max-width: 600px) {
+  .tables {
+    display: initial;
+  }
+  .each_table {
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  .table-container::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  .scroll_vertical::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .table-top {
+    padding: 10px 10px 0;
+  }
+  .filter-form {
+    padding: 5px;
+    margin-top: 0;
+    width: 100%;
+    flex-direction: column-reverse;
+    row-gap: 5px;
+  }
+  .filter-table-left {
+    width: 100%;
+  }
+  .filter-table-left > input {
+    font-size: 13px;
+  }
+  .filter-table-right {
+    column-gap: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .filter-select {
+    font-size: 13px;
+  }
+  .default_table {
+    padding: 10px;
+  }
+  table thead tr th {
+    font-size: 14px;
+  }
+  table tbody tr td {
+    font-size: 14px;
+  }
+  .table-bottom {
+    padding: 0 10px 10px 10px;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  .bottom-left > span {
+    color: #555;
+    font-size: 14px;
+  }
+  #pagination li a {
+    padding: 4px 8px;
+    line-height: 1;
+    font-size: 14px;
+  }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+  .tables {
+    display: initial;
+  }
+  .each_table {
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  .table-container::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  .scroll_vertical::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .table-top {
+    padding: 10px 10px 0;
+  }
+  .filter-form {
+    padding: 5px;
+    margin-top: 0;
+    width: 100%;
+    flex-direction: column-reverse;
+    row-gap: 5px;
+  }
+  .filter-table-left {
+    width: 100%;
+  }
+  .filter-table-left > input {
+    font-size: 13px;
+  }
+  .filter-table-right {
+    column-gap: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .filter-select {
+    font-size: 13px;
+  }
+  .default_table {
+    padding: 10px;
+  }
+  table thead tr th {
+    font-size: 14px;
+  }
+  table tbody tr td {
+    font-size: 14px;
+  }
+  .table-bottom {
+    padding: 0 10px 10px 10px;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  .bottom-left > span {
+    color: #555;
+    font-size: 14px;
+  }
+  #pagination li a {
+    padding: 4px 8px;
+    line-height: 1;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .tables {
+    display: initial;
+  }
+  .each_table {
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .table-container::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  .scroll_vertical::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .table-top {
+    padding: 10px 10px;
+  }
+  .filter-form {
+    padding: 5px;
+    margin-top: 0;
+    width: 100%;
+    flex-direction: row;
+    row-gap: 5px;
+  }
+  .filter-table-left {
+    width: 100%;
+  }
+  .filter-table-left > input {
+    font-size: 14px;
+  }
+  .filter-table-right {
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 10px;
+  }
+  .filter-select {
+    font-size: 14px;
+  }
+  .default_table {
+    padding: 10px;
+  }
+  table thead tr th {
+    font-size: 16px;
+  }
+  table tbody tr td {
+    font-size: 16px;
+  }
+  .table-bottom {
+    padding: 0 10px 10px 10px;
+    flex-direction: row;
+    row-gap: 5px;
+  }
+  .bottom-left > span {
+    color: #555;
+    font-size: 14px;
+  }
+  #pagination li a {
+    padding: 4px 8px;
+    line-height: 1;
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tables {
+    display: initial;
+  }
+  .each_table {
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .table-container::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  .scroll_vertical::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .table-top {
+    padding: 20px 20px 0;
+  }
+  .filter-form {
+    padding: 5px;
+    margin-top: 0;
+    width: 100%;
+    flex-direction: row;
+    row-gap: 5px;
+  }
+  .filter-table-left {
+    width: 100%;
+  }
+  .filter-table-left > input {
+    font-size: 14px;
+  }
+  .filter-table-right {
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 10px;
+  }
+  .filter-select {
+    font-size: 14px;
+  }
+  .default_table {
+    padding: 20px;
+  }
+  table thead tr th {
+    font-size: 16px;
+  }
+  table tbody tr td {
+    font-size: 16px;
+  }
+  .table-bottom {
+    padding: 0 10px 10px 10px;
+    flex-direction: row;
+    row-gap: 5px;
+  }
+  .bottom-left > span {
+    color: #555;
+    font-size: 16px;
+  }
+  #pagination li a {
+    padding: 4px 8px;
+    line-height: 1;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .each_table {
+    display: block;
+    overflow-x: scroll;
+  }
+  .table-container::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  .scroll_vertical::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .table-top {
+    padding: 20px 20px 0;
+  }
+  .filter-form {
+    padding: 10px;
+    margin-top: 0;
+    width: 100%;
+    flex-direction: row;
+    row-gap: 5px;
+  }
+  .filter-table-left {
+    width: 220px;
+  }
+  .filter-table-left > input {
+    font-size: 14px;
+  }
+  .filter-table-right {
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 10px;
+  }
+  .filter-select {
+    font-size: 14px;
+  }
+  .default_table {
+    padding: 20px;
+  }
+  table thead tr th {
+    font-size: 16px;
+  }
+  table tbody tr td {
+    font-size: 16px;
+  }
+  .table-bottom {
+    padding: 0 10px 10px 10px;
+    flex-direction: row;
+    row-gap: 5px;
+  }
+  .bottom-left > span {
+    color: #555;
+    font-size: 16px;
+  }
+  #pagination li a {
+    padding: 4px 8px;
+    line-height: 1;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .filter-table-left {
+   max-width:  220px;
+  }
+}

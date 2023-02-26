@@ -1,0 +1,415 @@
+/* typography start  */
+body,
+html {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: 0 0px 0 #ddd;
+}
+ul,ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+ul li a {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/* typography end  */
+/* ======Background Color Start====== */
+.bg--primary {
+  background-color: var(--color-primary) !important;
+}
+.bg--secondary {
+  background-color: var(--color-secondary) !important;
+}
+.bg--danger {
+  background-color: var(--color-danger) !important;
+}
+.bg--success {
+  background-color: var(--color-success) !important;
+}
+.bg--dark {
+  background-color: var(--color-dark) !important;
+}
+.bg--light {
+  background: var(--color-white) !important;
+}
+.bg--info {
+  background-color: var(--color-info) !important;
+}
+.bg--warning {
+  background-color: var(--color-warning) !important;
+}
+.bg--lite-blue {
+  background: var(--color-lite-blue);
+}
+.bg--dark-blue {
+  background: var(--color-dark-blue);
+}
+/* ======Background Color End====== */
+
+/* ======Color Start====== */
+.text--primary {
+  color: var(--color-primary) !important;
+}
+.text--secondary {
+  color: var(--color-secondary) !important;
+}
+.text--danger {
+  color: var(--color-danger) !important;
+}
+.text--success {
+  color: var(--color-success) !important;
+}
+.text--dark {
+  color: var(--color-dark) !important;
+}
+.text--light {
+  color: var(--color-light) !important;
+}
+.text--info {
+  color: var(--color-info) !important;
+}
+.text--warning {
+  color: var(--color-warning) !important;
+}
+.text--lite-blue {
+  color: var(--color-lite-blue);
+}
+.text--dark-blue {
+  color: var(--color-dark-blue);
+}
+/* ======Color End====== */
+
+/* ======Color Lite Start====== */
+.bg--primary--lite {
+  background-color: rgb(13 110 253 / 20%) !important;
+}
+.bg--secondary--lite {
+  background-color: rgb(108 117 125 / 20%) !important;
+}
+.bg--info--lite {
+  background: rgb(13 202 240 / 20%) !important;
+}
+.bg--danger--lite {
+  background-color: rgb(220 53 69 / 20%) !important;
+}
+.bg--warning--lite {
+  background-color: rgb(255 193 7 / 20%) !important;
+}
+.bg--success--lite {
+  background-color: rgb(25 135 84 / 20%) !important;
+}
+.bg--dark--lite {
+  background-color: rgb(33 37 41 / 20%) !important;
+}
+.bg--light--lite {
+  background-color: rgb(248 249 250 / 20%) !important;
+}
+/* ======Color Lite End====== */
+
+/* ======Button Start====== */
+.btn--primary {
+  background-color: var(--color-primary) !important;
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--secondary {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--danger {
+  background-color: var(--color-danger) !important;
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--success {
+  background-color: var(--color-success) !important;
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--dark {
+  background-color: var(--color-dark) !important;
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn-light {
+  background-color: var(--color-light) !important;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--info {
+  background-color: var(--color-info) !important;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--warning {
+  background-color: var(--color-warning) !important;
+  color: var(--color-dark);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--lite-blue {
+  background: var(--color-lite-blue) !important;
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+.btn--dark-blue {
+  background: var(--color-dark-blue);
+  color: var(--color-light);
+  cursor: pointer;
+  display: inline;
+  text-align: center;
+}
+/* ======Button End====== */
+
+/* ======Button Lite Start====== */
+
+.btn--primary--lite {
+  background-color: rgb(13 110 253 / 20%);
+  color: var(--color-primary);
+  display: inline;
+  text-align: center;
+}
+.btn--info--lite {
+  background: rgb(13 202 240 / 20%);
+  color: var(--color-info);
+  display: inline;
+  text-align: center;
+}
+.btn--danger--lite {
+  background-color: rgb(220 53 69 / 20%);
+  color: var(--color-danger);
+  display: inline;
+  text-align: center;
+}
+.btn--secondary--lite {
+  background-color: rgb(108 117 125 / 20%);
+  color: var(--color-secondary);
+  display: inline;
+  text-align: center;
+}
+.btn--success--lite {
+  background-color: rgb(25 135 84 / 20%);
+  color: var(--color-success);
+}
+.btn--dark--lite {
+  background-color: rgb(33 37 41 / 20%);
+  color: var(--color-dark);
+  display: inline;
+  text-align: center;
+}
+.btn-light--lite {
+  background-color: rgb(248 249 250 / 20%);
+  color: var(--color-light);
+  display: inline;
+  text-align: center;
+}
+.btn--warning--lite {
+  background-color: rgb(255 193 7 / 20%);
+  color: var(--color-warning);
+  display: inline;
+  text-align: center;
+}
+/* ======Button Lite End====== */
+
+/* ======Border Start====== */
+.btn--outline--primary {
+  border: 1px solid var(--color-primary);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--danger {
+  border: 1px solid var(--color-danger);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--light {
+  border: 1px solid var(--color-light);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--secondary {
+  border: 1px solid var(--color-secondary);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--success {
+  border: 1px solid var(--color-success);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--dark {
+  border: 1px solid var(--color-dark);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--info {
+  border: 1px solid var(--color-info);
+  display: inline;
+  text-align: center;
+}
+.btn--outline--warning {
+  border: 1px solid var(--color-warning);
+  display: inline;
+  text-align: center;
+}
+/* ======Border End====== */
+
+/* font size and margin padding  start */
+
+.fs--1 {
+  font-size: 96px;
+}
+.fs--2 {
+  font-size: 80px;
+}
+.fs--3 {
+  font-size: 64px;
+}
+.fs--4 {
+  font-size: 48px;
+}
+.fs--5 {
+  font-size: 36px;
+}
+.fs--6 {
+  font-size: 30px;
+}
+.fs--7 {
+  font-size: 24px;
+}
+.fs--8 {
+  font-size: 18px;
+}
+.fs--9 {
+  font-size: 12px;
+}
+.fs--10 {
+  font-size: 6px;
+}
+.m--1 {
+  margin: 1rem;
+}
+.ms--2 {
+  margin-left: 2rem;
+}
+.ms--3 {
+  margin-left: 3rem;
+}
+.p--1 {
+  padding: 1rem;
+}
+.p--2 {
+  padding: 2rem;
+}
+/* font size and margin padding  end */
+
+.d--flex {
+  display: flex;
+}
+.align--center {
+  align-items: center;
+}
+.justify--between {
+  justify-content: space-between;
+}
+
+/* button section start  */
+
+.btn--sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+/* badge section end  */
+.badgeCount {
+    margin: 0;
+    background: rgb(0 0 0 / 50%);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white !important;
+    line-height: 1;
+    font-size: 12px;
+}
+/* border color area end  */
+
+.loader {
+  animation: loader 2s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

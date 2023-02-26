@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@300;400;500;600;800;900&display=swap");
+
+:root {
+  --color-primary: #1f7f7b;
+  --color-secondary: #fea34c;
+  --color-light: #eaebed;
+  --color-dark: #05172b;
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+  --gray-3: #828282;
+  --gray-4: #bdbdbd;
+  --gray-5: #e0e0e0;
+  --gray-6: #f2f2f2;
+
+  --transition: all 0.3s ease;
+
+  /* Font Family */
+  --roboto: "Roboto", sans-serif;
+  --rubik: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-family: var(--rubik) !important;
+}
+
+p {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem !important;
+  font-family: var(--roboto) !important;
+  line-height: 1.3 !important;
+  -webkit-font-smoothing: antialiased;
+}
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+section {
+  padding: 4rem 0;
+  width: 100%;
+}
